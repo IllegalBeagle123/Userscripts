@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Auto Archiver
-// @namespace    http://tampermonkey.net/
-// @version      0.4
+// @namespace    https://github.com/IllegalBeagle123/Userscripts/
+// @version      0.5
 // @description  Automatically saves blocked sites with web.archive.com.
 // @author       Dylan Barrett
 // @match        *fdc-edugw-cf04.ed.act.edu.au/*
 // @match        *web.archive.org/web/*
 // @grant        none
+// @run-at document-start
 // ==/UserScript==
 
 (function() {
